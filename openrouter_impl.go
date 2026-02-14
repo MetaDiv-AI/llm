@@ -304,8 +304,9 @@ func toLLMMessage(m *chat.Message) *Message {
 		out.ToolCalls = make([]ToolCall, len(m.ToolCalls))
 		for i, tc := range m.ToolCalls {
 			out.ToolCalls[i] = ToolCall{
-				ID:   tc.ID,
-				Type: tc.Type,
+				Index: tc.Index,
+				ID:    tc.ID,
+				Type:  tc.Type,
 				Function: FunctionCall{
 					Name:      tc.Function.Name,
 					Arguments: tc.Function.Arguments,

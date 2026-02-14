@@ -37,7 +37,9 @@ type FunctionDef struct {
 }
 
 // ToolCall represents a tool call in the response.
+// Index is used when accumulating streaming deltas (OpenAI format).
 type ToolCall struct {
+	Index    int           `json:"index,omitempty"`
 	ID       string        `json:"id"`
 	Type     string        `json:"type"`
 	Function FunctionCall  `json:"function"`
