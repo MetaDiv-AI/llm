@@ -36,7 +36,7 @@ type InputAudio struct {
 // FileData represents a document file (PDF, etc.) for OpenRouter.
 type FileData struct {
 	Filename string `json:"filename"`
-	FileData string `json:"fileData"` // URL or data:application/pdf;base64,...
+	FileData string `json:"file_data"` // URL or data:application/pdf;base64,...
 }
 
 // Tool represents a tool/function definition.
