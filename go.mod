@@ -4,7 +4,7 @@ go 1.23.2
 
 require (
 	github.com/MetaDiv-AI/logger v1.0.0
-	github.com/MetaDiv-AI/openrouter v1.1.0
+	github.com/MetaDiv-AI/openrouter v1.2.0
 )
 
 require (
