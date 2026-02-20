@@ -25,7 +25,7 @@ func newOpenRouterClient(cfg *config) (*Client, error) {
 	}
 
 	return &Client{
-		Chat:      &openRouterChat{or: or},
+		Chat:       &openRouterChat{or: or},
 		Embeddings: &openRouterEmbedding{or: or},
 	}, nil
 }
@@ -191,9 +191,9 @@ func toORChatRequest(req *ChatRequest) *chat.ChatRequest {
 
 func toORMessage(m Message) chat.Message {
 	or := chat.Message{
-		Role:      m.Role,
-		Content:   m.Content,
-		Name:      m.Name,
+		Role:       m.Role,
+		Content:    m.Content,
+		Name:       m.Name,
 		ToolCallID: m.ToolCallID,
 	}
 	if len(m.ToolCalls) > 0 {
@@ -303,7 +303,7 @@ func toLLMMessage(m *chat.Message) *Message {
 	if len(m.ToolCalls) > 0 {
 		out.ToolCalls = make([]ToolCall, len(m.ToolCalls))
 		for i, tc := range m.ToolCalls {
-			out.ToolCalls[i] = ToolCall{
+			ltc := ToolCall{
 				Index: tc.Index,
 				ID:    tc.ID,
 				Type:  tc.Type,
@@ -312,6 +312,7 @@ func toLLMMessage(m *chat.Message) *Message {
 					Arguments: tc.Function.Arguments,
 				},
 			}
+			out.ToolCalls[i] = ltc
 		}
 	}
 	return out

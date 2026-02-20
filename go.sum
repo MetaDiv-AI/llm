@@ -10,6 +10,8 @@ github.com/MetaDiv-AI/openrouter v1.2.0 h1:0MRyWoXLfNlXr02UdrqvcAXBacpvjH7e8DupZ
 github.com/MetaDiv-AI/openrouter v1.2.0/go.mod h1:S/1ChoygRnZIZ7Yt8OwrLBWDAbEWA16aURww8zLO0q8=
 github.com/MetaDiv-AI/openrouter v1.2.1 h1:XAr5IgaX0bCbRloHUdmgFa8XuhdHnI0utbxHfbMQxA8=
 github.com/MetaDiv-AI/openrouter v1.2.1/go.mod h1:S/1ChoygRnZIZ7Yt8OwrLBWDAbEWA16aURww8zLO0q8=
+github.com/MetaDiv-AI/openrouter v1.2.2 h1:oUKqf3UZbY+5DdwnwAcz1x1u+DJ4zILQE6rQsw5zaiI=
+github.com/MetaDiv-AI/openrouter v1.2.2/go.mod h1:S/1ChoygRnZIZ7Yt8OwrLBWDAbEWA16aURww8zLO0q8=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
