@@ -193,6 +193,7 @@ func toORMessage(m Message) chat.Message {
 	or := chat.Message{
 		Role:       m.Role,
 		Content:    m.Content,
+		Reasoning:  m.Reasoning,
 		Name:       m.Name,
 		ToolCallID: m.ToolCallID,
 	}
@@ -297,6 +298,7 @@ func toLLMMessage(m *chat.Message) *Message {
 	out := &Message{
 		Role:       m.Role,
 		Content:    m.Content,
+		Reasoning:  m.Reasoning,
 		Name:       m.Name,
 		ToolCallID: m.ToolCallID,
 	}

@@ -2,16 +2,6 @@ github.com/MetaDiv-AI/http_caller v1.0.0 h1:nndVYyyxYHm/iKtUy1qXeQfa3EnWQeRaGch4
 github.com/MetaDiv-AI/http_caller v1.0.0/go.mod h1:EEHS0Bt0kr4+ibBRjKL3PCujTrcmuEwRyl1192nX9lc=
 github.com/MetaDiv-AI/logger v1.0.0 h1:In+20i2q2OOEpwNsh+z3xBgyBu/w5Z2HXzPYUhM8iiQ=
 github.com/MetaDiv-AI/logger v1.0.0/go.mod h1:Ivcfj+tfJi1XuJW9XHoY3MCNyFayJer0VhBgGpDwINs=
-github.com/MetaDiv-AI/openrouter v1.0.0 h1:8SJ2L+7se8EShzFM1Z/6PhAdjgI20MTGRMyWlceJwCc=
-github.com/MetaDiv-AI/openrouter v1.0.0/go.mod h1:S/1ChoygRnZIZ7Yt8OwrLBWDAbEWA16aURww8zLO0q8=
-github.com/MetaDiv-AI/openrouter v1.1.0 h1:dkV+RQXkm/G3tKNa7wGeZYpBqRB90XthWVDMfZDzsN0=
-github.com/MetaDiv-AI/openrouter v1.1.0/go.mod h1:S/1ChoygRnZIZ7Yt8OwrLBWDAbEWA16aURww8zLO0q8=
-github.com/MetaDiv-AI/openrouter v1.2.0 h1:0MRyWoXLfNlXr02UdrqvcAXBacpvjH7e8DupZ7Y4Q60=
-github.com/MetaDiv-AI/openrouter v1.2.0/go.mod h1:S/1ChoygRnZIZ7Yt8OwrLBWDAbEWA16aURww8zLO0q8=
-github.com/MetaDiv-AI/openrouter v1.2.1 h1:XAr5IgaX0bCbRloHUdmgFa8XuhdHnI0utbxHfbMQxA8=
-github.com/MetaDiv-AI/openrouter v1.2.1/go.mod h1:S/1ChoygRnZIZ7Yt8OwrLBWDAbEWA16aURww8zLO0q8=
-github.com/MetaDiv-AI/openrouter v1.2.2 h1:oUKqf3UZbY+5DdwnwAcz1x1u+DJ4zILQE6rQsw5zaiI=
-github.com/MetaDiv-AI/openrouter v1.2.2/go.mod h1:S/1ChoygRnZIZ7Yt8OwrLBWDAbEWA16aURww8zLO0q8=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
@@ -20,8 +10,6 @@ github.com/stretchr/testify v1.8.1 h1:w7B6lhMri9wdJUVmEZPGGhZzrYTPvgJArz7wNPgYKs
 github.com/stretchr/testify v1.8.1/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o6fzry7u4=
 go.uber.org/goleak v1.3.0 h1:2K3zAYmnTNqV73imy9J1T3WC+gmCePx2hEGkimedGto=
 go.uber.org/goleak v1.3.0/go.mod h1:CoHD4mav9JJNrW/WLlf7HGZPjdw8EucARQHekz1X6bE=
-go.uber.org/multierr v1.10.0 h1:S0h4aNzvfcFsC3dRF1jLoaov7oRaKqRGC/pUEJ2yvPQ=
-go.uber.org/multierr v1.10.0/go.mod h1:20+QtiLqy0Nd6FdQB9TLXag12DsQkrbs3htMFfDN80Y=
 go.uber.org/multierr v1.11.0 h1:blXXJkSxSSfBVBlC76pxqeO+LN3aDfLQo+309xJstO0=
 go.uber.org/multierr v1.11.0/go.mod h1:20+QtiLqy0Nd6FdQB9TLXag12DsQkrbs3htMFfDN80Y=
 go.uber.org/zap v1.27.1 h1:08RqriUEv8+ArZRYSTXy1LeBScaMpVSTBhCeaZYfMYc=

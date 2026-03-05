@@ -2,9 +2,12 @@ package llm
 
 // Message represents a chat message.
 // Content is either a string (text-only) or []ContentPart for multimodal (text + images).
+// Reasoning is populated by reasoning models (e.g. DeepSeek R1) and contains
+// the model's internal chain-of-thought text, separate from Content.
 type Message struct {
 	Role       string     `json:"role"`
 	Content    any        `json:"content"`
+	Reasoning  string     `json:"reasoning,omitempty"`
 	Name       string     `json:"name,omitempty"`
 	ToolCallID string     `json:"tool_call_id,omitempty"`
 	ToolCalls  []ToolCall `json:"tool_calls,omitempty"`
